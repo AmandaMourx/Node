@@ -24,4 +24,5 @@ setInterval(() => {
 
   console.clear();
   console.table(stats);
+  exports.stats = stats;
 }, 1000);
